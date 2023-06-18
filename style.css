@@ -1,0 +1,121 @@
+* {
+    background: #609ED4;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    overflow-y: hidden;
+
+}
+
+.logo {
+    padding-top: 10px;
+    margin-left: 10px;
+    width: 10%;
+}                                                                                                              *.encriptacion {
+    padding-top: 60px;
+    margin-left: 60px;
+    width: 80%;
+}
+
+main {
+    display: flex;
+    margin-bottom: 20px;
+    margin-left: 120px;
+
+}
+
+.text-area {
+    height: 200px;                                                                                           width: 90%;
+    border: none;                                                                                   
+    background: #FFFFFF;
+    margin-top: 5px;
+    padding: 2px;
+    text-transform: lowercase;
+}
+  
+::placeholder {
+    color: #0A3871;
+}
+
+.text-area:focus {
+    outline: none;
+}
+
+.mensaje {
+    height: 200px;     
+    background: white;                                                                                  width: 90%;
+    /*background-image: url("imagenes/Muñeco.png"); 
+    background-repeat: no-repeat;
+    background-position: center;*/
+    border: none;
+    /*border-radius: 24px;*/ 
+    color: #0A3871;
+    margin-left: 20px;
+    margin-top: 20px;
+    padding-left: 20px;
+    /* position: fixed; */
+}
+
+.mensaje:focus {
+    outline: none;
+}
+
+.botones {
+    display: flex;
+    margin-top: 18px;
+}
+
+.btn-desencriptar {
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+}
+
+.btn-encriptar {
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+}
+
+.copiar {  
+    border: 1px solid #D8DFE8;
+    border-radius: 24px;                                                                             background: #D8DFE8;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+    margin-left: 120px;
+    margin-top: 30px;
+    /*position: absolute;
+    width: 336px;*/
+}
+
+.informacion {
+    color: #F3F5FC;
+    font-size:30px;
+}                                                                                                        footer {
+    background-color: #609ED4;
+    color: #fff;
+    padding: 30px 0;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  p {
+    margin: 0;
+  }
+  
